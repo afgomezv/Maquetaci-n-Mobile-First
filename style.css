@@ -273,7 +273,8 @@ main{
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
 }
-.product-detail--card .clock {
+.product-detail--card .clock,
+.product-detail--card .eye {
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -282,6 +283,23 @@ main{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+.product-detail--card .eye {
+    background-image: url('./assets/icons/eye.svg');
+}
+.product-detail--card .dollar,
+.product-detail--card .goal {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url('./assets/icons/dollar-sign.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product-detail--card .goal {
+    background-image: url('./assets/icons/check-circle.svg');
 }
 .producto--card-title {
     margin-bottom: 15px;
