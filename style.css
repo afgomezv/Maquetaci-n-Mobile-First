@@ -58,7 +58,7 @@ header img {
     line-height: 1.8rem;
     color: var(--soft-orange);
 }
-.header--button{
+.header--button {
     position: absolute;
     left: calc(50% - 118px);
     top: 270px;
@@ -368,10 +368,10 @@ main{
     position: relative;
     scroll-snap-align: center;
     width: 70%;
-    min-width: 230px;
+    min-width: 190px;
     max-width: 300px;
     height: 250px;
-    margin: 50px 20px 0;
+    margin: 50px 5px 0;
     padding: 0 15px;
     background-color: var(--just-white);
     border-radius: 15px;
