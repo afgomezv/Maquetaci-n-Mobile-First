@@ -126,13 +126,22 @@ main{
     line-height: 1.6rem;
     color: #757575;
 }
+.main-tables-container {
+    display: flex;
+    height: 380px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
 .main-currency-table,
 .main-commissions-table {
+    position: relative;
+    scroll-snap-align: center;
     width: 70%;
     min-width: 235px;
     max-width: 500px;
     height: 360px;
-    margin: 0 auto;
+    margin: 0 30px;
     font-family: "inter", sans-serif;
 }
 .main-currency-table .currency-table--title,
@@ -358,7 +367,7 @@ main{
 }
 .plans-container--slider {
     display: flex;
-    height: 316px;
+    height: 330px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
